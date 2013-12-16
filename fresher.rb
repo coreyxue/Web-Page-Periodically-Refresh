@@ -3,12 +3,12 @@ require 'rubygems'
 require 'selenium-webdriver'
 
 driver = Selenium::WebDriver.for :firefox
-driver.get "---website login page url---"
+driver.get "http://---website login page url---/"
 
-element = driver.find_element :name => "---email feild name---"
+element = driver.find_element :name => "---email field name---"
 element.click
 element.send_keys "---your email---"
-element1 = driver.find_element :name => "---password feild name---"
+element1 = driver.find_element :name => "---password field name---"
 element1.send_keys "---your password---"
 element2 = driver.find_element :id => "---login botton id---"
 element2.click
