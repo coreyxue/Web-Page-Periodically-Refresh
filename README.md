@@ -18,4 +18,5 @@ To setup Selenium Webdriver
   Open http://release.seleniumhq.org/selenium-ide/2.4.0/selenium-ide-2.4.0.xpi within firefox
 
 To execute the program
+
 $./start.sh
