@@ -22,12 +22,12 @@ puts "Succussfully loged in!"
 #wait.until { driver.title.start_with? "" }
 
 # for simplicity wait for 10 seconds
-sleep 10
+sleep 5
 
 #puts "Page title is #{driver.title}"
 counter = 1
 while true
-  sleep 10 #10 second each period
+  sleep ---period--- #seconds of each period
   driver.navigate.refresh
   puts "You have refresh #{counter} times."
   counter += 1
