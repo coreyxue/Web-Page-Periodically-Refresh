@@ -21,10 +21,4 @@ read password_field
 
 echo "------Ready to launch!!!------"
 sed -e "s/---website login page url---/$site_address/" -e "s/---your email---/$email/" -e "s/---your password---/$password/" -e "s/---login botton id---/$login_id/" -e "s/---password field name---/$password_field/" -e "s/---email field name---/$email_field/" fresher.rb > configed_fresher.rb
-#cat temp.rb
-#sed "s/---your email---/$email/" temp.rb > temp.rb
-#cat temp.rb
-#sed "s/---your password---/$password/" temp.rb > temp.rb
-#cat temp.rb
-#sed "s/---login botton id---/$login_id/" temp.rb > temp1.rb
 ruby configed_fresher.rb
