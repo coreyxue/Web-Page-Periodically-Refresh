@@ -29,7 +29,7 @@ counter = 1
 while true
   sleep ---period--- #seconds of each period
   driver.navigate.refresh
-  puts "You have refresh #{counter} times."
+  puts "You have refreshed #{counter} times."
   counter += 1
 end
 #no need to quit
